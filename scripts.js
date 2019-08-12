@@ -5,7 +5,7 @@ $(document).ready(function () {
         var h = $(window).height();
         console.log(w);
         console.log(h);
-        $('.videoplayback').css('height', h);
+        $('body, .videoplayback').css('height', h);
     }
 
     console.log('start!');
